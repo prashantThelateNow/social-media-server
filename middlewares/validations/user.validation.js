@@ -1,7 +1,7 @@
-const { RegisterUser, userLoginSchema  } = require('../../models/user');
+const { RegisterUser, userLoginSchema } = require('../../models/user');
 
 module.exports = {
-    registerUserValidation: (req, res, next) => {
-        next();
-    }
-}
+	registerUserValidation: (req, res, next) => {
+		next();
+	},
+};

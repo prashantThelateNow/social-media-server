@@ -1,5 +1,5 @@
 const mainRouter = require('express').Router();
-const appConfig = require('./config/config.app'); 
+const appConfig = require('./config/config.app');
 const userRouter = require('./routes/users');
 const postRouter = require('./routes/posts');
 const { checkToken } = require('./middlewares/validations/token_validation');
